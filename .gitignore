@@ -1,0 +1,19 @@
+# WordPress core files to ignore
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-*
+*.log
+.DS_Store
+
+# Exclude WordPress update files
+wp-admin/upgrade.php
+wp-includes/update.php
+
+# Exclude temporary and system files
+*.swp
+*.swo
+node_modules/
+vendor/
+
